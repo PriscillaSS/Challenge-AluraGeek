@@ -1,0 +1,253 @@
+body{
+    font-family:  "Bodoni MT";
+    
+}
+
+.titulo-misProductos{
+    color: aliceblue;
+    font-size: 35px;
+    margin: 10px 0 30px 0;
+
+}
+
+header{
+    background-color: rgb(33, 30, 30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgAlura{
+    margin: 10px 0;
+}
+
+main{
+    background: url(img/montaña.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Contenedor-1{
+    display: flex;
+    height: 560px;
+    width: 640px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-color: #506a6f #0f2520;
+    scrollbar-width: thin;
+
+
+}
+.Contenedor-1::-webkit-scrollbar{
+    -webkit-appearance: none;
+
+}
+
+.products-container{
+    display: flex;
+    gap: 25px;
+    flex-flow: wrap;
+}
+
+.Mis-Productos{
+    padding: 20px 13px;
+}
+
+h2{
+    color: aliceblue;
+    font-size: 35px;
+    margin: 106px 0 30px 0;
+    text-align: center;
+    font-style: italic;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: #014f5d;
+    box-shadow: inset 0 0 55px black;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #859ca1;
+
+    width: 170px;
+    height: 230px;
+}
+
+.Imagen-producto{
+    width: 130px;
+    margin: 13px 20px 6px 20px;
+    border-radius: 14px;
+}
+
+.card-container--info{
+    font-size: 16px;
+    color: #ffffff;
+    margin: 2px 8px;
+
+}
+
+.card-container--value{
+    display: flex;
+    gap: 85px;
+    margin: 10px 0px;
+}
+
+.delete-button{
+    cursor:pointer;
+
+}
+
+.delete-button:hover{
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 4px;
+    
+
+}
+
+
+
+
+
+/*Contenedor 2*/
+
+
+.Contenedor-2{
+    display: flex;
+}
+
+.agregar-producto{
+    position: relative;
+    margin: 40px 0px;
+    padding: 23px 40px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 24px 4px;
+
+}
+
+.titulo-agregar-producto{
+    position: absolute;
+    top: 20px;
+    left: 13%;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin: 20px 55px 18px 46px;
+}
+
+.img-formulario{
+    opacity: 0.5;
+    filter: blur();
+    width: 100%;
+    border-radius: 20px;
+}
+
+.Formulario{
+    position: absolute;
+    top: 90px;
+    left: 70px;
+}
+
+.formulario-productos{
+    display: flex;
+    white-space: pre-line;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.campo__etiqueta{
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.botones{
+    display: flex;
+    gap: 70px;
+    margin: 7px 40px;
+
+}
+
+.enviar{
+    height: 40px;
+    width: 90px;
+    font-size: 19px;
+    border-radius: 8px;
+    background: #06b2c1;
+    box-shadow: inset 0 0 35px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #7baab5;
+    
+}
+
+.enviar:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    border-color: #b7d6dd;
+    box-shadow: inset 0 0 20px;
+}
+
+.campo__escrita{
+    width: 100%;
+    background: none;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-color: #f5f5f9;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    font-size: 20px;
+    color: #f5f5f9;
+}
+
+footer{
+    background-color: rgb(33, 30, 30);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 0px 15px 0px;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+
+/*DISEÑO RESPONSIVO*/
+
+
+/*Mobile*/
+@media (max-width: 600px) {
+
+main{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.all-productos{
+    width: 81%;
+    display: flex;
+    flex-direction: column;
+}
+
+.agregar-producto{
+    position: relative;
+    margin: 40px 0px;
+    padding: 23px 40px;
+    border-radius: 30px;
+    box-shadow: none;
+
+}
+
+
+}
+
+
+

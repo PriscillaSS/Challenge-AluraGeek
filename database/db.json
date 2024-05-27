@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "name": "panda",
+      "price": "50",
+      "image": "https://i.pinimg.com/236x/c0/73/14/c07314d3fdef13f23e6ff1b50d40b973.jpg",
+      "id": 1
+    },
+    {
+      "name": "Conejo",
+      "price": "60",
+      "image": "https://m.media-amazon.com/images/I/71k9UyEGQ7S.jpg",
+      "id": 2
+    },
+    {
+      "name": "Búho",
+      "price": "20",
+      "image": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/83001f38-fa56-49b9-b17f-5701696e8600.2ab7fd6b3a3add2f7125f51248ab528b.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "id": 3
+    },
+    {
+      "name": "Dragon",
+      "price": "30",
+      "image": "https://m.media-amazon.com/images/I/71Fwlw1pKyL.jpg",
+      "id": 4
+    },
+    {
+      "name": "Caballo",
+      "price": "25",
+      "image": "https://falabella.scene7.com/is/image/FalabellaPE/120807795_1?wid=800&hei=800&qlt=70",
+      "id": 5
+    },
+    {
+      "name": "Mono",
+      "price": "60",
+      "image": "https://img.kwcdn.com/product/fancy/d3a876a6-26ee-4ccf-a06a-6b99a10c7d7b.jpg?imageView2/2/w/500/q/60/format/webp",
+      "id": 6
+    },
+    {
+      "name": "Gato",
+      "price": "25",
+      "image": "https://i0.wp.com/www.decasa.cr/wp-content/uploads/ALAN3-26-1-scaled.jpg?resize=300%2C300&ssl=1",
+      "id": 7
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/Icono.png">
+    <title>AluraGeek</title>
+</head>
+
+
+<!-- Cuerpo del Proyecto -->
+
+<body>
+
+    <header>
+        <nav class="encabezado">
+            <img src="img/AluraGeek.png" class="imgAlura" alt="logo del AluraGeek">
+        </nav>
+    </header>
+
+    <!-- PARTE 1 Caja de productos -->
+    <main>
+        <section class="Contenedor-1">
+            <div class="Mis-Productos">
+                <h1 class="titulo-misProductos">Mis Productos:</h1>
+
+                <div class="all-productos">
+                    <!-- En caso de que no se registre ningún producto 
+                    <h2 class="No-productos">Todavía no se ha registrado ningún producto</h2>-->
+
+                    <div data-product class="products-container">
+                        
+                        
+                        
+                    </div>
+
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- PARTE 2 Formulario de productos  -->
+
+        <section class="Contenedor-2">
+            <div class="agregar-producto">
+
+                <img src="img/fondo formulario.png" class="img-formulario">
+                <h1 class="titulo-agregar-producto"> Agregar Producto</h1>
+
+
+                <div class="Formulario">
+
+                    <form class="formulario-productos" data-form>
+                        <div class="formulario__campo">
+                            <label class="campo__etiqueta" for="url">Nombre del producto:</label>
+                            <input name="url" class="campo__escrita" required id='titulo' data-titulo />
+                        </div>
+
+
+                        <div class="formulario__campo">
+                            <label class="campo__etiqueta" for="titulo">Precio del producto:</label>
+                            <input name="titulo" class="campo__escrita" required id='precio' data-precio />
+                        </div>
+
+                        <div class="formulario__campo">
+                            <label class="campo__etiqueta" for="imagem">Imagen del producto:</label>
+                            <input name="imagem" class="campo__escrita" required id='imagem' data-imagen />
+                        </div>
+
+                        <div class="botones">
+
+                            <input type="submit" value="Enviar" class="enviar">
+                            <input type="reset" value="Limpiar" class="enviar">
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="img/AluraGeek.png" class="imgAlura" alt="logo del AluraGeek">
+        <p>Desarrollado por: Priscilla Solís Miranda</p>
+        <p>Alura Latam - 2024</p>
+    </footer>
+
+    <script type="module" src="js/controllers/main.js"></script>
+
+    
+</body>
+
+</html>
